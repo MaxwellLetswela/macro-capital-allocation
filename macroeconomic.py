@@ -427,10 +427,10 @@ elif analysis_mode == "Valuation Analysis":
     st.markdown('</div>', unsafe_allow_html=True)
 
 elif analysis_mode == "Risk Assessment":
-    st.header("⚠️ Comprehensive Risk Analysis")
+    st.header(" Comprehensive Risk Analysis")
     
     # Risk scorecard
-    st.subheader("📋 Regulatory Risk Scorecard")
+    st.subheader(" Regulatory Risk Scorecard")
     
     fig = go.Figure(data=[
         go.Bar(
@@ -459,7 +459,7 @@ elif analysis_mode == "Risk Assessment":
             st.progress(risk['Score']/10)
     
     # Risk vs reward matrix
-    st.subheader("⚖️ Risk-Reward Matrix")
+    st.subheader(" Risk-Reward Matrix")
     
     # FIXED: Calculate sector_avg_growth correctly
     # Get the sector average growth from the sector_avg dataframe
@@ -499,7 +499,7 @@ elif analysis_mode == "Risk Assessment":
     st.plotly_chart(fig, use_container_width=True)
     
     # Mitigation strategies
-    st.subheader("🛡️ Risk Mitigation Strategies")
+    st.subheader(" Risk Mitigation Strategies")
     
     mitigation_strategies = pd.DataFrame({
         'Risk': ['SARB Licensing', 'NCA Compliance', 'BEE Requirements', 'POPI Compliance'],
@@ -551,7 +551,7 @@ elif analysis_mode == "Risk Assessment":
     
     # Key correlation insights
     st.markdown('<div class="insight-highlight">', unsafe_allow_html=True)
-    st.markdown("### 🔍 Key Correlation Insights")
+    st.markdown("###  Key Correlation Insights")
     
     col1, col2, col3 = st.columns(3)
     
