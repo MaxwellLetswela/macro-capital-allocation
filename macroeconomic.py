@@ -853,6 +853,6 @@ st.markdown("""
     <strong>Time Period:</strong> 2022-Q1 to 2024-Q2 • 
     <strong>Analysis Date:</strong> August 2024</p>
     <p><strong>Disclaimer:</strong> This is a conceptual project composed with real and synthetic data for demonstration purpose only. Names of companies are fictitious and do not represent or alias any legally registered entity within the republic or abroad. If my work impress you, reach-out for my services, I'm available for consulting and employment.</p>
-    <small>SA FinTech Econometric Dashboard • Prepared for VC Investment Committee</small>
+    <small>Econometric Dashboard • Prepared for market makers and VCs</small>
 </div>
 """, unsafe_allow_html=True)
