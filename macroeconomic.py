@@ -426,7 +426,7 @@ elif analysis_mode == "Valuation Analysis":
     """)
     st.markdown('</div>', unsafe_allow_html=True)
 
-    elif analysis_mode == "Risk Assessment":
+elif analysis_mode == "Risk Assessment":
     st.header("⚠️ Comprehensive Risk Analysis")
     
     # Risk scorecard
